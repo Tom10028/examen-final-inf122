@@ -38,8 +38,32 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+
+  --gray:#F5F7FB;
+  --black:#393939;
+  --white:#FFFFFF;
+  --gray2:#676767;
+  --blue: #26367C;
+  --lg:32px;
+  --md:22px;
+  --sm:12px;
+  --sm2:14px;
+  --gray3:#7480B2;
 }
 
+p{
+  font-weight: 600;
+  font-family: Poppins;
+}
+h1{
+font-family: Poppins;
+}
+h2{
+font-family: Poppins;
+}
+
+/*
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -105,3 +129,4 @@ a {
     color-scheme: dark;
   }
 }
+*/

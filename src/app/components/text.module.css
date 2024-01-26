@@ -1,0 +1,23 @@
+.text-container{
+    background-color: var(--white);
+    width: 375px;
+    height: 212px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.p-claras{
+    color: var(--gray2);
+    font-size: var(--sm);    
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.p-oscuras{
+    color:var(--black);
+    font-size: var(--sm);
+    text-transform: capitalize;
+}
+.title{
+    font-size: var(--md2);
+}

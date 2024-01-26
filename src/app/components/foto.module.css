@@ -1,0 +1,32 @@
+.img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 375px;
+    height: 411px;
+    background-color: var(--gray);
+}
+.img-container h2 {
+    font-size: var(--md);
+    margin-left: 15px;
+       
+}
+.img-container h1{
+    font-size: var(--lg);
+    margin-left: 15px;
+    text-transform: capitalize;
+    color: var(--blue);
+    margin-top: 0;
+}
+.numero{
+margin-top: 0;
+ font-size: var(--sm2);
+ color: var(--gray3); 
+ margin-bottom: -20px;
+}
+.img{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
